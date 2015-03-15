@@ -12,4 +12,4 @@ ENV SPRING_HOME /data/spring-1.2.2.RELEASE
 
 ENV PATH $SPRING_HOME/bin:$PATH
 
-ENTRYPOINT ['spring']
+CMD ['bash']
