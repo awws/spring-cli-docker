@@ -11,5 +11,3 @@ RUN rm -rf *.gz
 ENV SPRING_HOME /data/spring-1.2.2.RELEASE
 
 ENV PATH $SPRING_HOME/bin:$PATH
-
-CMD ['bash']
